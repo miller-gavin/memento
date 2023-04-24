@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import { LinksList } from "./links-list";
+import { MementoMoriCounter } from "./memento-mori-counter";
 
 const unsplashAccessKey = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 const unsplashCollectionId = import.meta.env.VITE_UNSPLASH_COLLECTION_ID;
@@ -39,6 +40,7 @@ export function App() {
         />
 
         <LinksList />
+        <MementoMoriCounter birthday="09-07-1988" />
       </StyledBackground>
     </>
   );

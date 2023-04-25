@@ -2,16 +2,21 @@ import * as React from "react";
 import styled from "styled-components";
 
 const StyledLinksList = styled.ul`
+  background: rgba(255, 255, 255, 0.2);
+  margin: 20px;
+  border-radius: 10px;
   position: absolute;
-  top: 30px;
+  top: 80px;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 30%;
+  width: fit-content;
   z-index: 1;
 `;
 
 const StyledLink = styled.li`
+  font-family: "Cutive Mono", monospace;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,14 +27,6 @@ interface Link {
   title: string;
   url: string;
 }
-
-// function Link(props: Link): JSX.Element {
-//   return (
-//     <StyledLink>
-//       <a href={props.url}>{props.title}</a>
-//     </StyledLink>
-//   );
-// }
 
 const sections = {
   general: "General",

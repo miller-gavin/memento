@@ -1,12 +1,16 @@
 import * as React from "react";
 import styled from "styled-components";
 
-
 const StyledMementoMoriCounter = styled.div`
+  font-family: "Cutive Mono", monospace;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
   display: flex;
   position: absolute;
   top: 30px;
-`
+`;
 
 // this calculation is based on the average lifespan of a Scottish guy is ~ 78 years.
 export function MementoMoriCounter(props: { birthday: string }) {
@@ -24,7 +28,7 @@ export function MementoMoriCounter(props: { birthday: string }) {
 
   return (
     <StyledMementoMoriCounter>
-      {`Memento Mori: ${yearsLeft} years / ${weeksLeft} weeks / ${daysLeft} :)`}
+      {`Memento Mori: ${yearsLeft} years | ${weeksLeft} weeks | ${daysLeft} days :)`}
     </StyledMementoMoriCounter>
   );
 }

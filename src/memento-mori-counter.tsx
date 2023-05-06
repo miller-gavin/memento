@@ -5,11 +5,9 @@ const StyledMementoMoriCounter = styled.div`
   font-family: "Cutive Mono", monospace;
   background: rgba(255, 255, 255, 0.2);
   padding: 10px;
-  margin: 20px;
+  margin: 10px 20px;
   border-radius: 10px;
   display: flex;
-  position: absolute;
-  top: 30px;
 `;
 
 // this calculation is based on the average lifespan of a Scottish guy is ~ 78 years.
@@ -28,7 +26,7 @@ export function MementoMoriCounter(props: { birthday: string }) {
 
   return (
     <StyledMementoMoriCounter>
-      {`Memento Mori: ${yearsLeft} years | ${weeksLeft} weeks | ${daysLeft} days :)`}
+      {`Memento Mori:  ${daysLeft} days left, use them wisely :)`}
     </StyledMementoMoriCounter>
   );
 }

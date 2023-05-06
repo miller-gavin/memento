@@ -3,10 +3,8 @@ import styled from "styled-components";
 
 const StyledLinksList = styled.ul`
   background: rgba(255, 255, 255, 0.2);
-  margin: 20px;
+  margin: 10px 20px;
   border-radius: 10px;
-  position: absolute;
-  top: 80px;
   display: flex;
   flex-direction: column;
   padding: 10px;

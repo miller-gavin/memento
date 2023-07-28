@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-memento-dev-235516-authRole",
+      "UnauthRoleArn": "arn:aws:iam::806110587128:role/amplify-memento-dev-235516-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::806110587128:role/amplify-memento-dev-235516-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-memento-dev-235516-deployment",
+      "UnauthRoleName": "amplify-memento-dev-235516-unauthRole",
+      "StackName": "amplify-memento-dev-235516",
+      "StackId": "arn:aws:cloudformation:eu-central-1:806110587128:stack/amplify-memento-dev-235516/01ffe150-f759-11ed-b9fb-06d21a345eec",
+      "AmplifyAppId": "d2um38plpla3we"
+    },
+    "categories": {
+      "auth": {
+        "memento6ba86421": {}
+      }
+    }
+  }
+}

@@ -49,7 +49,7 @@ export function App() {
 
   React.useEffect(() => {
     getCollection();
-  }, []);
+  }, [imageIndex]);
 
   function handleClick() {
     if (imageIndex === 2) {
